@@ -189,7 +189,7 @@ output                                    IP2Bus_Error;
       endcase
     end // SLAVE_REG_READ_PROC
 	
-	//Address for writing is considered as 0x8
+	//Address for writing is considered as 0xC
 	always @(posedge Bus2IP_Clk)
 	begin
 	    if(wr_en_ibuff)
@@ -205,7 +205,7 @@ output                                    IP2Bus_Error;
 	begin
 	    if(rd_en_obuff)
 	       rd_en_obuff   <=   1'b0;   //Just to make sure signal is high for only 1 clock cycle
-		else if(slv_reg_read_sel == 8'b00010000)   
+		else if(slv_reg_read_sel == 8'b00010000)   //Address 0xC 
 		   rd_en_obuff   <=   1'b1;
 	end
 	
