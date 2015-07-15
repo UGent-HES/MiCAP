@@ -1,0 +1,8 @@
+-batch 
+-create micap 
+-ver 1.00.a 
+-dir "E:\micap_amit\xps" 
+-lang verilog 
+-bus axi4lite s 
+-reg 8 
+-xps 
