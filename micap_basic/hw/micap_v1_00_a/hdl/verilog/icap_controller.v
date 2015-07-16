@@ -67,7 +67,6 @@ Copyright (c) 2012, Ghent University - HES group.
 * file:              icap_controller.v
 * Version:           1.00.a
 * Description:       This file contains the statmachine and the ICAPE2 hard macro instantiation
-* Author:            Amit Kulkarni 
 * Created by Ghent University...
 *******************************************************************************************************
 **/
