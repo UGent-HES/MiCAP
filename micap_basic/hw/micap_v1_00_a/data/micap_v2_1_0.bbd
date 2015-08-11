@@ -5,5 +5,5 @@
 ##############################################################################
 
 FILES
-rd_seq_ram.ngc,config_buffer.ngc,config_buffer_ord.ngc
+config_buffer.ngc,config_buffer_ord.ngc
 

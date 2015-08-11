@@ -8,7 +8,6 @@ lib proc_common_v3_00_a  all
 lib axi_lite_ipif_v1_01_a  all 
 lib micap_v1_00_a user_logic verilog
 lib micap_v1_00_a icap_controller verilog
-lib micap_v1_00_a rd_seq_ram.v verilog
 lib micap_v1_00_a config_buffer.v verilog
 lib micap_v1_00_a config_buffer_ord.v verilog
 lib micap_v1_00_a micap vhdl
