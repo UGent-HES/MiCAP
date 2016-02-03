@@ -42,3 +42,8 @@ In no event shall UGent be liable for (a) any incidental, consequential, or indi
 ##Installation and usage manual
 
 For installation instructions, please read documentation/user_guide_basic_micap.pdf
+
+## Citation
+To cite this work please usethe following paper:
+A. Kulkarni, V. Kizheppatt, and D. Stroobandt,
+"MiCAP: A custom Reconfiguration Controller for Dynamic Circuit Specialization," in ReConFigurable Computing and FPGAs (ReConFig), 2015 International Conference on, Cancun, Mexico, 2015.
